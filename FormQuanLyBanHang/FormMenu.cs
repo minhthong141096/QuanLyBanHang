@@ -22,5 +22,13 @@ namespace FormQuanLyBanHang
             Form flogin = new FormLogin();
             flogin.ShowDialog();
         }
+
+        private void quảnLýKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form fThem = new FormQuanLyKhachHang();
+            fThem.MdiParent = this;
+            fThem.Show();
+
+        }
     }
 }
