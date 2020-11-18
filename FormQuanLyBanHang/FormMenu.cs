@@ -30,5 +30,12 @@ namespace FormQuanLyBanHang
             fThem.Show();
 
         }
+
+        private void danhSáchKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form fThem = new FormDanhSachKhachHang();
+            fThem.MdiParent = this;
+            fThem.Show();
+        }
     }
 }

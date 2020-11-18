@@ -66,6 +66,7 @@
             this.danhSáchKháchHàngToolStripMenuItem.Name = "danhSáchKháchHàngToolStripMenuItem";
             this.danhSáchKháchHàngToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.danhSáchKháchHàngToolStripMenuItem.Text = "Danh Sách Khách Hàng";
+            this.danhSáchKháchHàngToolStripMenuItem.Click += new System.EventHandler(this.danhSáchKháchHàngToolStripMenuItem_Click);
             // 
             // FormMenu
             // 
